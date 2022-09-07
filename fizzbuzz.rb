@@ -1,7 +1,9 @@
-def fizzbuzz
+$LOAD_PATH << '.'
+require 'FizzBuzz/FizzBuzzRules/rule'
+require 'FizzBuzz/rules'
+require 'FizzBuzz/Program'
 
-  # Add your code here
-
+module FizzBuzz
 end
 
-fizzbuzz
+FizzBuzz::FizzBuzz.fizzbuzz
